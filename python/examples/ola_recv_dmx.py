@@ -21,12 +21,14 @@
 import getopt
 import textwrap
 import sys
+import os
 from ola.ClientWrapper import ClientWrapper
 
 __author__ = 'nomis52@gmail.com (Simon Newton)'
 
 
 def NewData(data):
+  os.system('clear')
   print(data)
 
 
